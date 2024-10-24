@@ -28,7 +28,7 @@ const theme = createTheme({
     },
     subtitle1: {
       color: "#F3BF99",
-      fontWeight: 350,
+      fontWeight: 351,
       fontSize: "12.8px",
       "@media (min-width:600px)": {
         fontSize: "15px",
