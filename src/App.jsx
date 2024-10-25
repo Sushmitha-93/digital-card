@@ -114,7 +114,9 @@ function App() {
             alt="profilePicture"
             src={sushmithaPicture}
             sx={{
-              height: { xs: "300px", sm: "317px" },
+              height: { xs: "280px", sm: "280px" },
+              objectPosition: "0% 26%",
+              scale: "1.1",
             }}
           />
           <CardContent sx={{ marginTop: "5px", marginBottom: "5px" }}>
