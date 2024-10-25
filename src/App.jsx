@@ -7,6 +7,7 @@ import { createTheme, ThemeProvider } from "@mui/material/styles";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import InstagramIcon from "@mui/icons-material/Instagram";
+import ContactPageIcon from "@mui/icons-material/ContactPage";
 import LanguageIcon from "@mui/icons-material/Language";
 import EmailIcon from "@mui/icons-material/Email";
 import OpenInNewIcon from "@mui/icons-material/OpenInNew";
@@ -116,7 +117,7 @@ function App() {
               height: { xs: "300px", sm: "317px" },
             }}
           />
-          <CardContent sx={{ marginTop: "5px", marginBottom: "15px" }}>
+          <CardContent sx={{ marginTop: "5px", marginBottom: "10px" }}>
             <Typography className="name" variant="h4" component="div">
               Sushmita D T
             </Typography>
@@ -134,7 +135,11 @@ function App() {
               component="div"
               gutterBottom
             >
-              <a id="website" href="https://sushmitaportfolio.com">
+              <a
+                id="website"
+                href="https://sushmitaportfolio.com"
+                target="_blank"
+              >
                 sushmitaPortfolio.com
               </a>{" "}
               <OpenInNewIcon sx={{ fontSize: "10px" }} />
@@ -196,6 +201,25 @@ function App() {
                 geek, love to explore new places and cultures. Anime buff. Tea
                 Fanatic.
               </Typography>
+              <Typography
+                className="body-text"
+                variant="body1"
+                sx={{
+                  paddingTop: "12px",
+                  color: "pink",
+                  textAlign: "center",
+                  fontStyle: "italic",
+                }}
+              >
+                I am currently open to new opportunities! Here's my{" "}
+                <a
+                  href="https://drive.google.com/file/d/12kXRsPBNpDcTp7VkygxT5oJw-9V_KIux/view"
+                  target="_blank"
+                >
+                  resume
+                </a>{" "}
+                <OpenInNewIcon sx={{ fontSize: "10px" }} />
+              </Typography>
             </Box>
           </CardContent>
           <Box
@@ -209,7 +233,7 @@ function App() {
           >
             <IconButton
               variant="footer-icon"
-              href="https://github.com"
+              href="https://github.com/Sushmitha-93"
               target="_blank"
               sx={{}}
             >
@@ -224,10 +248,10 @@ function App() {
             </IconButton>
             <IconButton
               variant="footer-icon"
-              href="https://www.instagram.com/sushmitha_dt/"
+              href="https://drive.google.com/file/d/12kXRsPBNpDcTp7VkygxT5oJw-9V_KIux/view"
               target="_blank"
             >
-              <InstagramIcon />
+              <ContactPageIcon />
             </IconButton>
             <IconButton
               variant="footer-icon"
