@@ -117,7 +117,7 @@ function App() {
               height: { xs: "300px", sm: "317px" },
             }}
           />
-          <CardContent sx={{ marginTop: "5px", marginBottom: "10px" }}>
+          <CardContent sx={{ marginTop: "5px", marginBottom: "5px" }}>
             <Typography className="name" variant="h4" component="div">
               Sushmita D T
             </Typography>
@@ -197,15 +197,14 @@ function App() {
                 Interests
               </Typography>
               <Typography className="body-text" variant="body1">
-                I enjoy working on personal projects and Hackathons. Travel
-                geek, love to explore new places and cultures. Anime buff. Tea
-                Fanatic.
+                Personal projects. Hackathons. Blogging. Travel geek. Anime
+                buff. Tea Fanatic.
               </Typography>
               <Typography
                 className="body-text"
                 variant="body1"
                 sx={{
-                  paddingTop: "12px",
+                  paddingTop: "15px",
                   color: "pink",
                   textAlign: "center",
                   fontStyle: "italic",
